@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="1" name="TestSuite" time="303.595" errors="0" skipped="11">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="FreeCRMTestJob"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\RB_Backup\Jenkins\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="c8a2fd0caeb51fdd"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMPOM"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\lib\resources.jar;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\lib\rt.jar;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\lib\sunrsasign.jar;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\lib\jsse.jar;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\lib\jce.jar;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\lib\charsets.jar;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\lib\jfr.jar;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMPOM"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="user.name" value="ATAUSER9-PC$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/7/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="sun.boot.library.path" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="USERNAME" value="ATAUSER9-PC$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\testmaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/7/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="configsetroot" value="C:\Windows\ConfigSetRoot"/>
+    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="ATAUSER9-PC"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="FreeCRMPOMAutomation"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-7"/>
+    <property name="JENKINS_SERVER_COOKIE" value="c8a2fd0caeb51fdd"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\testmaven/bin;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK/bin;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Windows\System32\WindowsPowerShell\v1.0\;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\testmaven"/>
+    <property name="java.class.path" value="C:\RB_Backup\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\testmaven\boot\plexus-classworlds-2.6.0.jar;C:\RB_Backup\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\testmaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\RB_Backup\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\testmaven C:\RB_Backup\Jenkins\.jenkins\war\WEB-INF\lib\remoting-4.2.jar C:\RB_Backup\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\RB_Backup\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59594"/>
+    <property name="Path" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Windows\System32\WindowsPowerShell\v1.0\;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\testmaven"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\RB_Backup\Jenkins\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\testmaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTestJob/7/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.model.JDK\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Sainath\IdeaProjects\FreeCRMPOM"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMTestJob/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\RB_Backup\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\testmaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="BASE" value="C:\RB_Backup\Jenkins\.jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="2a07"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\RB_Backup\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\RB_Backup\Jenkins\.jenkins\workspace\FreeCRMTestJob@tmp"/>
+    <property name="WORKSPACE" value="C:\RB_Backup\Jenkins\.jenkins\workspace\FreeCRMTestJob"/>
+    <property name="maven3.interceptor.common" value="C:\RB_Backup\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\RB_Backup\Jenkins\.jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
+  </properties>
+  <testcase classname="com.crm.qa.tests.loginPageTest" name="setUp" time="303.595">
+    <failure message="timeout: Timed out receiving message from renderer: 29.152
+  (Session info: chrome=81.0.4044.92)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATAUSER9-PC&apos;, ip: &apos;192.168.29.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:59841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c04c2cf319836310100b85197b877590" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 29.152
+  (Session info: chrome=81.0.4044.92)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATAUSER9-PC&apos;, ip: &apos;192.168.29.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:59841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c04c2cf319836310100b85197b877590
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.crm.qa.base.Testbase.initialization(Testbase.java:67)
+	at com.crm.qa.tests.loginPageTest.setUp(loginPageTest.java:21)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2ac1fdc4
+Before navigating to: &apos;https://freecrm.com/&apos;
+Navigated to:&apos;https://freecrm.com/&apos;
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Log In&apos;)]
+Found Element By : By.xpath: //span[contains(text(),&apos;Log In&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c5507e946d240381d153ef622d6b5b36)] -&gt; xpath: //span[contains(text(),&apos;Log In&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c5507e946d240381d153ef622d6b5b36)] -&gt; xpath: //span[contains(text(),&apos;Log In&apos;)]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[text()=&apos;Login&apos;]
+Found Element By : By.xpath: //div[text()=&apos;Login&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c5507e946d240381d153ef622d6b5b36)] -&gt; xpath: //div[text()=&apos;Login&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c5507e946d240381d153ef622d6b5b36)] -&gt; xpath: //div[text()=&apos;Login&apos;]]
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Contacts&apos;)]
+Found Element By : By.xpath: //span[contains(text(),&apos;Contacts&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c5507e946d240381d153ef622d6b5b36)] -&gt; xpath: //span[contains(text(),&apos;Contacts&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c5507e946d240381d153ef622d6b5b36)] -&gt; xpath: //span[contains(text(),&apos;Contacts&apos;)]]
+Before navigating to: &apos;https://freecrm.com/&apos;
+Navigated to:&apos;https://freecrm.com/&apos;
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Log In&apos;)]
+Found Element By : By.xpath: //span[contains(text(),&apos;Log In&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ffd3211571ab5dcd45390e4362165170)] -&gt; xpath: //span[contains(text(),&apos;Log In&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ffd3211571ab5dcd45390e4362165170)] -&gt; xpath: //span[contains(text(),&apos;Log In&apos;)]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[text()=&apos;Login&apos;]
+Found Element By : By.xpath: //div[text()=&apos;Login&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ffd3211571ab5dcd45390e4362165170)] -&gt; xpath: //div[text()=&apos;Login&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ffd3211571ab5dcd45390e4362165170)] -&gt; xpath: //div[text()=&apos;Login&apos;]]
+Before navigating to: &apos;https://freecrm.com/&apos;
+Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 29.152
+  (Session info: chrome=81.0.4044.92)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATAUSER9-PC&apos;, ip: &apos;192.168.29.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:59841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c04c2cf319836310100b85197b877590
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 20354
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1586969106.510][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 15, 2020 11:45:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1586969154.867][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969154.970][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969155.072][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969155.175][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969155.282][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969155.660][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969155.765][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969156.168][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969156.269][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969156.373][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969166.603][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969166.709][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969166.815][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969166.917][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969167.023][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969167.128][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969167.236][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969168.925][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969169.027][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969169.140][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969169.245][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969169.352][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969169.457][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969169.566][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969169.672][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969169.827][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969169.932][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969170.042][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969170.148][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969170.261][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969170.516][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969172.886][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969173.011][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969173.115][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969173.219][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969173.326][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969173.532][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969173.645][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969173.751][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969174.321][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969174.470][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969174.572][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969174.674][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969174.864][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969174.965][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969175.067][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969175.168][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969177.369][SEVERE]: Timed out receiving message from renderer: 0.100
+Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 34276
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 15, 2020 11:47:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1586969259.236][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969259.434][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969259.540][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969259.644][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969259.753][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969259.859][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969259.961][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969260.063][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969260.167][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969260.274][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969260.380][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969260.485][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969260.587][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969260.692][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969260.797][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969260.928][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969261.029][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969261.137][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969261.256][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969261.358][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969261.464][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969261.574][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969261.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969261.790][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969261.892][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969261.994][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969262.096][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969262.199][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969262.305][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969262.413][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969262.519][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969262.624][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969262.729][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969262.830][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969262.932][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969263.043][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969263.147][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969263.250][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969263.359][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969263.464][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969264.900][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969265.005][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969265.107][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969265.209][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969265.314][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969265.418][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969265.541][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969265.645][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969265.751][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969265.864][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969266.281][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969266.471][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969266.663][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969266.949][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969267.056][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969267.225][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969267.329][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969267.449][SEVERE]: Timed out receiving message from renderer: 0.100
+Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 22928
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 15, 2020 11:48:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1586969325.548][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969325.663][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969325.796][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969325.898][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969326.003][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969326.108][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969326.216][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586969372.656][SEVERE]: Timed out receiving message from renderer: 29.152
+[1586969372.658][SEVERE]: Timed out receiving message from renderer: 29.152
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.ContactsPageTest" name="validateHeader" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.ContactsPageTest" name="validateContactsTable" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.HomePageTest" name="validateHomePageTitleTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.HomePageTest" name="validateDealsLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.HomePageTest" name="validateUsername" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.loginPageTest" name="validateLoginPageTitleTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.loginPageTest" name="validateCRMLogoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.loginPageTest" name="validateLoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.ContactsPageTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.HomePageTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.tests.loginPageTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
