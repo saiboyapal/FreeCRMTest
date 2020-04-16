@@ -11,15 +11,6 @@
           <include name="validateHeader"/>
         </methods>
       </class> <!-- com.crm.qa.tests.ContactsPageTest -->
-      <class name="com.crm.qa.tests.loginPageTest">
-        <methods>
-          <include name="validateLoginPageTitleTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="validateCRMLogoTest"/>
-          <include name="validateLoginTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.tests.loginPageTest -->
       <class name="com.crm.qa.tests.HomePageTest">
         <methods>
           <include name="setUp"/>

@@ -9,7 +9,7 @@
         <classes>
             <class name="com.crm.qa.tests.loginPageTest"/>
             <class name="com.crm.qa.tests.HomePageTest"/>
-
+            <class name="com.crm.qa.tests.ContactsPageTest"/>
         </classes>
     </test>
 </suite>

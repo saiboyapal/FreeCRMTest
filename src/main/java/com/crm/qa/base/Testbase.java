@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -44,11 +43,11 @@ public class Testbase {
         String browserName = prop.getProperty("browser");
 
         if(browserName.equals("chrome")){
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sainath\\IdeaProjects\\Drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/Drivers/chromedriver.exe");
             driver = new ChromeDriver();
         }
         else if(browserName.equals("FF")){
-            System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");
+            System.setProperty("webdriver.gecko.driver", "C:\\Users\\Sainath\\IdeaProjects\\FreeCRMPOM\\src\\main\\resources\\Drivers\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
 
