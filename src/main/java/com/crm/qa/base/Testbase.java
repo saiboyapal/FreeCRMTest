@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -47,15 +48,19 @@ public class Testbase {
             driver = new ChromeDriver();
         }
         else if(browserName.equals("FF")){
-            System.setProperty("webdriver.gecko.driver", "C:\\Users\\Sainath\\IdeaProjects\\FreeCRMPOM\\src\\main\\resources\\Drivers\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "src/main/resources/Drivers/geckodriver.exe");
+            //System.setProperty("webdriver.gecko.driver","C:\\Users\\Sainath\\IdeaProjects\\FreeCRMPOM\\src\\main\\resources\\Drivers\\geckodriver.exe");
             driver = new FirefoxDriver();
+        } else if (browserName.equals("IE")){
+            System.setProperty("webdriver.ie.driver","src/main/resources/Drivers/IEDriverServer.exe");
+            driver = new InternetExplorerDriver();
         }
 
-        e_driver = new EventFiringWebDriver(driver);
+        /*e_driver = new EventFiringWebDriver(driver);
         // Now create object of EventListerHandler to register it with EventFiringWebDriver
         eventListener = new WebEventListener();
         e_driver.register(eventListener);
-        driver = e_driver;
+        driver = e_driver;*/
 
         wait = new WebDriverWait(driver,20  );
         driver.manage().window().maximize();
